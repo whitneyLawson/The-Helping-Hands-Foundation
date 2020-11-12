@@ -1,0 +1,88 @@
+body{
+    font-family: segoe ui;
+}
+#logo img{
+    width: 80px;
+}
+.burger svg{
+    width: 50px;
+}
+.burger{
+    align-self: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#africanKidsImage{
+    width: 100%;
+}
+#missionH, #visionH{
+    border-bottom: 5px solid #0B653E;
+    display: inline-block;
+    margin-bottom: -10px;
+    color: #0B653E;
+}
+
+footer{
+    text-align: center;
+    background-color: #f49ac1;
+    padding: 5px 0;
+    color: white;
+}
+/* #missionVision{
+    display: flex;
+    flex-wrap: wrap;
+} */
+footer p{
+    font-weight: 500;
+}
+
+#burgerMenu li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    /* padding: 10px; */
+    /* border-bottom: 2px solid black; */
+}
+#burgerMenu ul a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+#burgerMenu ul a:hover{
+    background: #fff;
+    color: #f49ac1;
+}
+/* #burgerMenu ul a:visited{
+    color: purple;
+} */
+#burgerMenu ul{
+    padding: 0px;
+}
+#burgerMenu{
+    background-color: rgb(244, 154, 193, 0.7);
+    position: absolute;
+    top: 85px;
+    left: -2000px;
+    z-index: 1000;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.sub-topics img{
+    width: 100%;
+}
+.sub-topics h3{
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #f49ac1;
+    color:  #fff;
+}
+/* #all{
+    display: flex;
+    justify-content: space-between;
+} */
+
