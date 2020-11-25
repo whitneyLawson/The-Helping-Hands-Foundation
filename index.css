@@ -26,8 +26,10 @@ body{
     color: #fff;
     background-color: rgb(82, 80, 80);
 }
-#desktopNav #comeDonate{
-    
+#bitLink img{
+    width: 160px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 #desktopNav ul{
     padding: 0;
@@ -147,3 +149,9 @@ footer p{
         display: none;
     }
 }
+
+/* @media (min-width: 701px) {
+    #burger{
+        opacity: 0;
+    }
+} */
